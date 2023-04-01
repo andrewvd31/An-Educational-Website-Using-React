@@ -1,0 +1,92 @@
+.events h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.1rem;
+    margin-bottom: 0.5em;
+}
+
+.news-page{
+    margin: 11em auto 1.5em;
+}
+
+.events-main-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.events-main-div .event{
+    padding: 4.5em 0 3em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.events-main-div .event .event-date{
+    text-align: center;
+    border: 3px solid #ffb606;
+    padding: 1.75em 2.5em;
+}
+
+.events-main-div .event .event-date h3{
+    font-size: 3.5rem;
+    color: #ffb606;
+}
+
+.events-main-div .event .event-date p{
+    font-size: 1.1rem;
+    color: #ffb606;
+    font-weight: 600;
+}
+
+.events-main-div .event .event-image img{
+    max-width: 300px;
+    width: 100%;
+}
+
+.events-main-div .event .event-description{
+    align-self: flex-start;
+    flex-basis: 50%;
+    line-height: 1.6;
+}
+
+.events-main-div .event .event-description h3{
+    margin: 0.85em 0 0.25em;
+    font-size: 1.5rem;
+}
+
+.events-main-div .event .event-description h4{
+    margin: 0 0 0.75em;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.events-main-div .event .event-description p{
+    color: #8e8e8e;
+}
+
+@media (max-width: 991px){
+    .events h2{
+        margin-bottom: 1.5em;
+    }
+    .events-main-div .event{
+        padding: 0 4.5em;
+        flex-direction: column;
+    }
+    .event{
+        margin-bottom: 3em;
+    }
+    .events-main-div .event-date{
+        margin-bottom: 1em;
+    }
+    .events-main-div .event .event-description p{
+        line-height: 2.1;
+        margin: 0 0 1.5em;
+    }
+}
+
+@media (max-width: 600px){
+    .events-main-div .event{
+        padding: 1em;
+    }
+}

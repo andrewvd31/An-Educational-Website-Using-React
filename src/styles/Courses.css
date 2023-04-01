@@ -1,0 +1,124 @@
+.courses{
+    width: 100%;
+}
+
+.underline{
+    margin: 6em auto 1.5em;
+    background-color: #ffb606;
+    height: 4px;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.courses-page{
+    margin: 11em auto 1.5em;
+}
+
+.courses-main-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.courses-sub{
+    max-width: 350px;
+}
+
+.courses-sub:last-child{
+    margin-bottom: 3rem;
+}
+
+.courses h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2em;
+}
+
+.courses-sub .courses-image{
+    width: 100%;
+}
+
+.courses-description .main-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.courses-description .main-description h3{
+    margin-top: 1.2em;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.courses-description .main-description p{
+    color: #848484;
+    font-size: 0.88rem;
+    margin: 0.34em 0 2em;
+}
+
+.courses-description .author-div{
+    background-color: #e3e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-description .author{
+    display: flex;
+    align-items: center;
+}
+
+.author-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 0.8em 0 1em;
+}
+
+.author-div .price{
+    height: 100%;
+    background-color: #ffb606;
+    padding: 1.2em 1.6em;
+}
+
+.author-div .author p{
+    font-size: 1rem;
+    color: #848484;
+}
+
+.author-div .author .author-span{
+    font-weight: 700;
+    color: black;
+}
+
+.author-div .price p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+@media (max-width: 991px){
+    .courses-sub .courses-image{
+        width: 90%;
+        display: block;
+        margin: 0 auto;    
+    }
+    .courses-sub{
+       width: 90%;
+    }
+    .courses-description .main-description h3{
+        font-size: 1.25rem;
+    }
+    .courses-description .main-description p{
+        font-size: 0.83rem;
+    }
+    .author-div .author p{
+        font-size: 0.85rem;
+    }
+    .author-image{
+        margin: 0 0.7em 0 0.5em;
+    }
+}

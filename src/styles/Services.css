@@ -1,0 +1,48 @@
+.services{
+    margin: 5em auto;
+}
+
+.services h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2.5em;
+}
+
+.services-main-div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 0 9em; 
+    gap: 5em;
+    margin-bottom: 2em;
+    place-items: center;
+}
+
+.services-div h3{
+    margin: 1em 0 0.5em;
+    font-weight: 500;
+    font-size: 1.35rem;
+}
+
+.services-div p{
+    font-size: 0.95rem;
+    color: #8e928b;
+    margin-bottom: 1em;
+    line-height: 2;
+}
+
+@media (max-width: 991px){
+    .services-div p{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .services-main-div{
+        padding: 0 2.75em;
+        gap: 3rem;
+    }
+    .services-div p{
+        margin-bottom: 0;
+    }
+}

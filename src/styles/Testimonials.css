@@ -1,0 +1,33 @@
+.testimonials{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../assets/testimonial-1.jpg);
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.35rem;
+    margin-bottom: 1.6em;
+    color: white;
+}
+
+.swiper-div{
+    width: 50%;
+    margin: 0 auto 3em;
+}
+
+@media (max-width: 991px){
+    .swiper-div{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .testimonials h2{
+        font-size: 1.75rem;
+    }
+}

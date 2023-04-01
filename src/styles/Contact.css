@@ -1,0 +1,131 @@
+.form{
+    display: flex;
+    margin-top: 3.5em;
+}
+
+.form-left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+    flex-direction: column;
+    background-color: #ffb606;
+    padding: 8em 6em;
+    text-align: center;
+    color: white;
+}
+
+.form-left-side h3{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    line-height: 2;
+}
+
+.form-left-side span{
+    color: black;
+}
+
+.form-left-side .last-heading-form{
+    margin-bottom: 1em;
+}
+
+.form-left-side p{
+    width: 100%;
+    line-height: 2;
+    margin-bottom: 3em;
+}
+
+.form-left-side .register-btn{
+    padding: 1.2em 2.8em;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-left-side .register-btn:hover{
+    box-shadow: 0 0.3em 0.75em rgba(0, 0, 0, 0.453);
+}
+
+.form-right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8em 6em;
+    width: 50%;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)), url(../assets/form-1.jpg);
+    background-size: cover;
+}
+
+.form-right-side h3{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 100%;
+    line-height: 2;
+}
+
+.form-right-side form{
+    margin-top: 4em;
+}
+
+.form-right-side form input{
+    width: 90%;
+    padding: 1.2em 1.5em;
+    font-family: 'Roboto';
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin-bottom: 2em;
+}
+
+.form-right-side form .form-btn{
+    display: inline-block;
+    margin-top: 1.5em;
+    width: 90%;
+    padding: 1.4em 2em;
+    color: white;
+    background-color: #ffb606;
+    font-family: 'Roboto';
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-right-side form .form-btn:hover{
+    box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.253);
+}
+
+@media (max-width: 991px){
+    .form{
+        flex-direction: column;
+    }
+    .form-left-side{
+        width: 100%;
+    }
+    .form-right-side{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .form-left-side,.form-right-side{
+        padding: 8em 1em;
+    }
+    .form-right-side h3{
+        font-size: 1.7rem;
+    }
+    .form-right-side form input{
+        width: 100%;
+    }
+    .form-right-side form .form-btn{
+        width: 100%;
+    }
+}

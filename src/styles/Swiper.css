@@ -1,0 +1,40 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff !important;
+}
+
+.swiper-above-text{
+  text-align: center;
+}
+
+.swiper-above-text h3{
+  font-size: 2rem;
+  color: #ffb606;
+  margin-bottom: 0.3em;
+}
+
+.swiper-above-text p{
+  font-size: 1rem;
+  line-height: 2.5rem;
+  color: white;
+  margin-bottom: 2.3em;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 1.25rem;
+  background: transparent;
+}
+
+.swiper-img{
+  display: block;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto 4.5em;
+}

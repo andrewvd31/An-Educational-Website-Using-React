@@ -1,0 +1,87 @@
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../assets/main_photo.jpg');
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.heading-line{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin: 2rem;
+    line-height: 1.5;
+}
+
+.heading-span{
+    padding: 0.1em 0.3em; 
+    background-color: #ffb606;
+}
+
+.features-sec{
+    display: flex;
+    margin-top: 4.5em;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature{
+    background-color: #1a1a1a;
+    padding: 2.5em 3.5em;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.feature-description h2{
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.feature-description-links{
+    font-size: 0.8rem;
+    color: #fff;
+    margin-top: 0.75em;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.feature-description-links:hover{
+    color: #1a1a1a;
+}
+
+.feature:hover{
+    background-color: #ffb606;
+    color: white;
+}
+
+@media (max-width: 991px){
+    .feature{
+        width: 90%;
+        padding: 2.5em 1em 2.5em 2em;
+    }
+    .heading-line{
+        font-size: 3rem;
+    }
+    .home{
+        margin-top: 4em;
+    }
+    .heading-line{
+        margin: 1em 0 0;
+        line-height: 1.5;
+    }
+}
